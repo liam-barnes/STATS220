@@ -2,7 +2,20 @@
 
 ![Image Load Failed. Please try again.](meme.png)
 
-## Artistic Analysis
+## Purpose
+The *purpose* of this, **meme** is as follows:
+- Get 100% on Assignment 1 of Stats 220
+- Acknowledge that my procrastination is a problem
+- Persaude the markers to give me a good grade with my *extremely funny* meme
+
+## Methodology 
+The development of this meme was as follows:
+
+1. Import the relevant libraries
+..- In this case Magick
+2. Create two blank images upon which the text can be displayed
+..- Ensure the images are styled correctly
+..- test
 
 ## THE CODE
 
@@ -37,6 +50,8 @@ memePicture1 <- image_read(path = "component_images/SadDrake.png") %>%
 memePicture2 <- image_read(path = "component_images/HappyDrake.png") %>%
   image_scale("x500")
 
+
+# Combine Image & Text Components
 topRow <- c(memePicture1, memeText1) %>%
   image_append(stack = FALSE)
 bottomRow <- c(memePicture2, memeText2) %>%
