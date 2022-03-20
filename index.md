@@ -1,6 +1,6 @@
 # The Meme
 
-![Image Load Failed. Please try again.](meme.png)
+![Image Load Failed. Please try again.](images/meme.png)
 
 ## Purpose
 The *purpose* of this, **meme** is as follows:
@@ -8,7 +8,7 @@ The *purpose* of this, **meme** is as follows:
 - Acknowledge that my procrastination is a problem
 - Persaude the markers to give me a good grade with my *extremely funny* meme
 
-The motivation for this meme was that I wanted to illustrate how procrastination was a part of my personality. Moreover I felt that the use of a pre-existing meme format made me seem more familiar with pop-culture which would make me appear more <span style="color:blue">*creative*</span>.
+The motivation for this meme was that I wanted to illustrate how procrastination was a part of my personality. Moreover I felt that the use of a pre-existing meme format made me seem more familiar with pop-culture which would make me appear more *creative*.
 
 ## Methodology 
 The development of this meme was as follows:
@@ -66,7 +66,7 @@ bottomRow <- c(memePicture2, memeText2) %>%
   image_append(stack = FALSE)
 
 meme <- c(topRow, bottomRow) %>%
-  image_append(stack = TRUE)
+  image_append(stack = TRUE)<iframe width="560" height="315" src="https://www.youtube.com/embed/nkX_gQKsFzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #Display Meme
 meme
@@ -74,3 +74,8 @@ meme
 # Export Meme
 image_write(meme, "meme.png", comment = "STATS 220 - Liam Barnes (lbar177)")
 ```
+## Youtube Video
+Just for fun, here is a youtube tutorial of programming in R but since I can't actually embed a youtube video in Markdown, its a photo which is a link to a youtube video.
+
+<a href="https://www.youtube.com/embed/nkX_gQKsFzQ" target="_blank"><img src="images/youtube_video.png" 
+alt="IMAGE ALT TEXT HERE" width="363" height="205" border="10" /></a>
