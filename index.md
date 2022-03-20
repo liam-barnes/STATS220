@@ -4,20 +4,24 @@
 
 ## Purpose
 The *purpose* of this, **meme** is as follows:
-- Get 100% on Assignment 1 of Stats 220
+- Get **100%** on **Assignment 1** of *Stats 220*
 - Acknowledge that my procrastination is a problem
 - Persaude the markers to give me a good grade with my *extremely funny* meme
 
 ## Methodology 
 The development of this meme was as follows:
 
-1. Import the relevant libraries
-..- In this case Magick
+1. Import the relevant libraries.
 2. Create two blank images upon which the text can be displayed
-..- Ensure the images are styled correctly
-..- test
-
+3. Style blank images.
+4. Add styled text to both images.
+5. Load Drake images.
+6. Scale Drake images.
+7. Create top and bottom row vectors of images.
+8. Combine top and bottom rows.
+9. Display and export meme.
 ## THE CODE
+Here is the `code` I used to create this meme:
 
 ```
 library(magick)
