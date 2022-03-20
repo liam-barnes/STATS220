@@ -8,6 +8,8 @@ The *purpose* of this, **meme** is as follows:
 - Acknowledge that my procrastination is a problem
 - Persaude the markers to give me a good grade with my *extremely funny* meme
 
+The motivation for this meme was that I wanted to illustrate how procrastination was a part of my personality. Moreover I felt that the use of a pre-existing meme format made me seem more familiar with pop-culture which would make me appear more <span style="color:blue">*creative*</span>.
+
 ## Methodology 
 The development of this meme was as follows:
 
@@ -20,7 +22,9 @@ The development of this meme was as follows:
 7. Create top and bottom row vectors of images.
 8. Combine top and bottom rows.
 9. Display and export meme.
-## THE CODE
+
+***
+## The Code
 Here is the `code` I used to create this meme:
 
 ```
